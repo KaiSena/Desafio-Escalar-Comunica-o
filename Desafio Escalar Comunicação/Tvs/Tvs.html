@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Escalar Comunicação</title>
+    <link href="./Tvs.css" rel="stylesheet">
+</head>
+<body>
+        <section>
+            <table>
+                <thead>
+                    <th colspan="4" class="text-center" style="border-bottom: 2px solid black;">TVs</th>
+                    <tr>
+                        <th>Quant.</th>
+                        <th>TVs</th>
+                        <th>Valor Unitário</th>
+                        <th>Valor Total</th>
+                    </tr>
+                </thead>
+            
+        <tbody>
+            <tr> 
+                <td><input onChange="calculateTotal(document.getElementById('tv32-qt').value,'tv32')" id='tv32-qt' type="number" name='tv32-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 32 Polegadas</td>
+                <td>R$1.000,00</td>
+                <td id='tv32-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input onChange="calculateTotal(document.getElementById('tv40-qt').value,'tv40')" id='tv40-qt' type="number" name='tv40-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 40 Polegadas</td>
+                <td>R$2.000,00</td>
+                <td id='tv40-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv43-qt' onChange="calculateTotal(document.getElementById('tv43-qt').value,'tv43')" type="number" name='tv43-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 43 Polegadas</td>
+                <td>R$2.500,00</td>
+                <td id='tv43-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv49-qt' onChange="calculateTotal(document.getElementById('tv49-qt').value,'tv49')" type="number" name='tv49-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 49 Polegadas</td>
+                <td>R$3.000,00</td>
+                <td id='tv49-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv50-qt' onChange="calculateTotal(document.getElementById('tv50-qt').value,'tv50')" type="number" name='tv50-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 50 Polegadas</td>
+                <td>R$3.500,00</td>
+                <td id='tv50-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv55-qt' onChange="calculateTotal(document.getElementById('tv55-qt').value,'tv55')" type="number" name='tv55-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 55 Polegadas</td>
+                <td>R$4.000,00</td>
+                <td id='tv55-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv58-qt' onChange="calculateTotal(document.getElementById('tv58-qt').value,'tv58')" type="number" name='tv58-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 58 Polegadas</td>
+                <td>R$4.500,00</td>
+                <td id='tv58-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv65-qt' onChange="calculateTotal(document.getElementById('tv65-qt').value,'tv65')" type="number" name='tv65-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 65 Polegadas</td>
+                <td>R$5.000,00</td>
+                <td id='tv65-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='tv75-qt' onChange="calculateTotal(document.getElementById('tv75-qt').value,'tv75')" type="number" name='tv75-qtde' value="0" size="5" min="0"/></td>
+                <td>TV 75 Polegadas</td>
+                <td>R$5.500,00</td>
+                <td id='tv75-total'>R$0</td>
+            </tr>
+            <tr> 
+                <td><input id='lfd-qt' onChange="calculateTotal(document.getElementById('lfd-qt').value,'lfd')" type="number" name='lfd-qtde' value="0" size="5" min="0"/></td>
+                <td>Monitor LFD (tamanho definido por projeto)</td>
+                <td>R$6.000,00</td>
+                <td id='lfd-total'>R$0</td>
+            </tr>
+            <tr>
+                <td><input id='mvw-qt' onChange="calculateTotal(document.getElementById('mvw-qt').value,'mvw')" type="number" name='mvw-qtde' value="0" size="5" min="0"/></td>
+                <td>Monitor Video Wall</td>
+                <td>R$6.500,00</td>
+                <td id='mvw-total'>R$0</td>
+            </tr>
+            <tr> 
+                <td colspan="3"class="last-line">(Estimativas de preços, monitores e aparelhos Video Wall são feitos sob consulta) </td>
+                <td id='products-total' colspan="1" class="last-result">R$0</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    <div class="sun"></div>
+   <script src="./Tvs.js"></script>
+
+</body>
+</html>

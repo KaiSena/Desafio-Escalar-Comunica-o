@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(87, 120, 209);
+    background-image: linear-gradient(
+      to bottom,
+      rgb(96, 113, 182),
+      rgb(221, 226, 240)
+    );
+    background-image: -moz-linear-gradient(
+      to bottom,
+      rgb(96, 113, 182),
+      rgb(221, 226, 240)
+    );
+    background-image: -webkit-linear-gradient(
+      to bottom,
+      rgb(96, 113, 182),
+      rgb(221, 226, 240)
+    );
+    min-height: 610px;
+  }
+  
+  section h1 {
+    width: 100%;
+    height: auto;
+    margin: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    text-align: center;
+    color: black;
+  }
+  
+  tbody input {
+      background-color: #beeff1;
+      border: none;
+      text-align: center;
+      width: 100%;
+  }
+  
+  
+  section table {
+    margin: 0px auto;
+    width: 50%;
+    height: auto;
+    border: 2px solid rgb(91, 209, 215);
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: rgb(221, 226, 240);
+  }
+  section table thead {
+    background-color: rgb(91, 209, 215);
+  }
+   tr th {
+    padding: 0px 0px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    border: 0 rgb(black);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+  }
+  section table thead tr th last-child {
+    border-right-width: 0px;
+  }
+  section table tbody {
+    background-color: rgb(190, 239, 241);
+    text-align: center;
+  }
+  tbody td {
+    padding: 3px 5px;
+    width: 30%;
+    border: 0 solid rgb(12, 12, 12);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    color: rgb(12, 12, 12);
+  }
+  section table tfoot {
+    background-color: white;
+    color: rgb(181, 190, 190);
+    text-align: left;
+  }
+  
+  td span {
+    position: absolute;
+    right: 586px;
+  }
+  
+  .last-result{
+    background-color: #2a5c5e;
+    color: white;
+  }
+  
+  .last-result input {
+    background-color: #2a5c5e;
+    color:#fff;
+  }
+  
+  .last-line{
+    background-color: #fff;
+    color: #aaa;
+  }
+  
